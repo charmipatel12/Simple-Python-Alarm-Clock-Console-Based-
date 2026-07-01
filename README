@@ -1,0 +1,20 @@
+#  Simple Python Alarm Clock (Console-Based)
+
+A simple Python script that works as an alarm clock by checking system time and triggering a beep sound when the set time is reached.
+
+##  Features
+- Set alarm using 24-hour format (HH:MM:SS)
+- Continuously checks system time
+- Plays beep sound when alarm triggers
+- Simple and lightweight CLI application
+
+##  Requirements
+- Python 3.x
+- Windows OS (uses `winsound` module)
+
+##  How It Works
+The script compares current system time with the user-defined alarm time. When both match, it triggers a sound alert.
+
+##  Usage
+```bash
+python alarm.py
